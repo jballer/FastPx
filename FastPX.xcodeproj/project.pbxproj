@@ -9,44 +9,65 @@
 /* Begin PBXBuildFile section */
 		B563EFFE198D7879000F3CD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B563EFFD198D7879000F3CD7 /* AppDelegate.swift */; };
 		B563F001198D7879000F3CD7 /* FastPX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B563EFFF198D7879000F3CD7 /* FastPX.xcdatamodeld */; };
-		B563F003198D7879000F3CD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B563F002198D7879000F3CD7 /* ViewController.swift */; };
-		B563F006198D7879000F3CD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B563F004198D7879000F3CD7 /* Main.storyboard */; };
 		B563F008198D7879000F3CD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B563F007198D7879000F3CD7 /* Images.xcassets */; };
-		B563F014198D7879000F3CD7 /* FastPXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B563F013198D7879000F3CD7 /* FastPXTests.swift */; };
+		B563F01E198D7B95000F3CD7 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B563F01D198D7B95000F3CD7 /* Authentication.storyboard */; };
+		B563F020198D7BB5000F3CD7 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B563F01F198D7BB5000F3CD7 /* AuthenticationViewController.swift */; };
+		B563F023198D7CE2000F3CD7 /* PopularTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B563F022198D7CE2000F3CD7 /* PopularTimelineViewController.swift */; };
+		B563F029198D97B8000F3CD7 /* RestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B563F028198D97B8000F3CD7 /* RestAPI.swift */; };
+		B5BC3F3F1991BB2D00C756FA /* FPXKeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BC3F3E1991BB2D00C756FA /* FPXKeychainWrapper.m */; };
+		B5CC7350198DAA8B007A4930 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B5CC7349198DAA8B007A4930 /* LICENSE */; };
+		B5CC7351198DAA8B007A4930 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CC734B198DAA8B007A4930 /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5CC7352198DAA8B007A4930 /* OAuth+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CC734D198DAA8B007A4930 /* OAuth+Additions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5CC7353198DAA8B007A4930 /* OAuthCore.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CC734F198DAA8B007A4930 /* OAuthCore.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5CC7355198DCBE2007A4930 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CC7354198DCBE2007A4930 /* AccountManager.swift */; };
+		B5CC7357198DCDF5007A4930 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CC7356198DCDF5007A4930 /* Account.swift */; };
+		B5CC7359198DDB01007A4930 /* PhotoStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CC7358198DDB01007A4930 /* PhotoStream.swift */; };
+		B5CC735B198DDB2A007A4930 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CC735A198DDB2A007A4930 /* Photo.swift */; };
+		B5E3945A1992DB24000C1E2A /* PhotoStreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E394591992DB24000C1E2A /* PhotoStreamViewController.swift */; };
+		B5E3945E1992EAA7000C1E2A /* EditorsTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E3945D1992EAA7000C1E2A /* EditorsTimelineViewController.swift */; };
+		B5E394601992F166000C1E2A /* SignInAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E3945F1992F166000C1E2A /* SignInAccount.swift */; };
+		B5F7CB6A198DF1B00094E00B /* PhotoStreamEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F7CB69198DF1B00094E00B /* PhotoStreamEntry.swift */; };
+		B5F7CB6D198E17AB0094E00B /* PhotoCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F7CB6C198E17AB0094E00B /* PhotoCellTableViewCell.swift */; };
+		B5F7CB72198F37BE0094E00B /* LoggedOutAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F7CB71198F37BE0094E00B /* LoggedOutAccount.swift */; };
+		B5F7CB74198F37FE0094E00B /* AuthenticatedAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F7CB73198F37FE0094E00B /* AuthenticatedAccount.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B563F00E198D7879000F3CD7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B563EFF0198D7879000F3CD7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B563EFF7198D7879000F3CD7;
-			remoteInfo = FastPX;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B563EFF8198D7879000F3CD7 /* FastPX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastPX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B563EFFC198D7879000F3CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B563EFFD198D7879000F3CD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B563EFFD198D7879000F3CD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Classes/AppDelegate.swift; sourceTree = "<group>"; };
 		B563F000198D7879000F3CD7 /* FastPX.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FastPX.xcdatamodel; sourceTree = "<group>"; };
-		B563F002198D7879000F3CD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B563F005198D7879000F3CD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B563F007198D7879000F3CD7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B563F00D198D7879000F3CD7 /* FastPXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastPXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B563F012198D7879000F3CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B563F013198D7879000F3CD7 /* FastPXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastPXTests.swift; sourceTree = "<group>"; };
+		B563F01D198D7B95000F3CD7 /* Authentication.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Authentication.storyboard; path = Storyboards/Authentication.storyboard; sourceTree = "<group>"; };
+		B563F01F198D7BB5000F3CD7 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthenticationViewController.swift; path = Classes/AuthenticationViewController.swift; sourceTree = "<group>"; };
+		B563F022198D7CE2000F3CD7 /* PopularTimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopularTimelineViewController.swift; path = FastPX/Classes/PopularTimelineViewController.swift; sourceTree = "<group>"; };
+		B563F025198D82B5000F3CD7 /* secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = secrets.xcconfig; path = ../secrets.xcconfig; sourceTree = "<group>"; };
+		B563F028198D97B8000F3CD7 /* RestAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestAPI.swift; path = FastPX/Classes/RestAPI.swift; sourceTree = "<group>"; };
+		B5BC3F3D1991BB2D00C756FA /* FPXKeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPXKeychainWrapper.h; path = FastPX/Classes/FPXKeychainWrapper.h; sourceTree = "<group>"; };
+		B5BC3F3E1991BB2D00C756FA /* FPXKeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FPXKeychainWrapper.m; path = FastPX/Classes/FPXKeychainWrapper.m; sourceTree = "<group>"; };
+		B5CC7342198DA7CF007A4930 /* FastPX-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "FastPX-Bridging-Header.h"; path = "FastPX/FastPX-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		B5CC7349198DAA8B007A4930 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B5CC734A198DAA8B007A4930 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		B5CC734B198DAA8B007A4930 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		B5CC734C198DAA8B007A4930 /* OAuth+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OAuth+Additions.h"; sourceTree = "<group>"; };
+		B5CC734D198DAA8B007A4930 /* OAuth+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OAuth+Additions.m"; sourceTree = "<group>"; };
+		B5CC734E198DAA8B007A4930 /* OAuthCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthCore.h; sourceTree = "<group>"; };
+		B5CC734F198DAA8B007A4930 /* OAuthCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthCore.m; sourceTree = "<group>"; };
+		B5CC7354198DCBE2007A4930 /* AccountManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccountManager.swift; path = FastPX/Classes/AccountManager.swift; sourceTree = "<group>"; };
+		B5CC7356198DCDF5007A4930 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Account.swift; path = FastPX/Classes/Account.swift; sourceTree = "<group>"; };
+		B5CC7358198DDB01007A4930 /* PhotoStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoStream.swift; path = FastPX/Classes/PhotoStream.swift; sourceTree = "<group>"; };
+		B5CC735A198DDB2A007A4930 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Photo.swift; path = FastPX/Classes/Photo.swift; sourceTree = "<group>"; };
+		B5E394591992DB24000C1E2A /* PhotoStreamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoStreamViewController.swift; path = FastPX/Classes/PhotoStreamViewController.swift; sourceTree = "<group>"; };
+		B5E3945D1992EAA7000C1E2A /* EditorsTimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditorsTimelineViewController.swift; path = FastPX/Classes/EditorsTimelineViewController.swift; sourceTree = "<group>"; };
+		B5E3945F1992F166000C1E2A /* SignInAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInAccount.swift; path = FastPX/Classes/SignInAccount.swift; sourceTree = "<group>"; };
+		B5F7CB69198DF1B00094E00B /* PhotoStreamEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoStreamEntry.swift; path = FastPX/Classes/PhotoStreamEntry.swift; sourceTree = "<group>"; };
+		B5F7CB6C198E17AB0094E00B /* PhotoCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoCellTableViewCell.swift; path = FastPX/Classes/PhotoCellTableViewCell.swift; sourceTree = "<group>"; };
+		B5F7CB71198F37BE0094E00B /* LoggedOutAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoggedOutAccount.swift; path = FastPX/Classes/LoggedOutAccount.swift; sourceTree = "<group>"; };
+		B5F7CB73198F37FE0094E00B /* AuthenticatedAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthenticatedAccount.swift; path = FastPX/Classes/AuthenticatedAccount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B563EFF5198D7879000F3CD7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B563F00A198D7879000F3CD7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -59,9 +80,10 @@
 		B563EFEF198D7879000F3CD7 = {
 			isa = PBXGroup;
 			children = (
-				B563EFFA198D7879000F3CD7 /* FastPX */,
-				B563F010198D7879000F3CD7 /* FastPXTests */,
+				B5E394561992D591000C1E2A /* Application */,
+				B563EFFA198D7879000F3CD7 /* Configuration */,
 				B563EFF9198D7879000F3CD7 /* Products */,
+				B563F02A198D9C43000F3CD7 /* Vendor */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,47 +91,142 @@
 			isa = PBXGroup;
 			children = (
 				B563EFF8198D7879000F3CD7 /* FastPX.app */,
-				B563F00D198D7879000F3CD7 /* FastPXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B563EFFA198D7879000F3CD7 /* FastPX */ = {
+		B563EFFA198D7879000F3CD7 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
 				B563EFFD198D7879000F3CD7 /* AppDelegate.swift */,
-				B563F002198D7879000F3CD7 /* ViewController.swift */,
-				B563F004198D7879000F3CD7 /* Main.storyboard */,
-				B563F007198D7879000F3CD7 /* Images.xcassets */,
 				B563EFFF198D7879000F3CD7 /* FastPX.xcdatamodeld */,
+				B563F007198D7879000F3CD7 /* Images.xcassets */,
 				B563EFFB198D7879000F3CD7 /* Supporting Files */,
 			);
+			name = Configuration;
 			path = FastPX;
 			sourceTree = "<group>";
 		};
 		B563EFFB198D7879000F3CD7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B5CC7342198DA7CF007A4930 /* FastPX-Bridging-Header.h */,
+				B563F025198D82B5000F3CD7 /* secrets.xcconfig */,
 				B563EFFC198D7879000F3CD7 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B563F010198D7879000F3CD7 /* FastPXTests */ = {
+		B563F021198D7BD1000F3CD7 /* Authetication */ = {
 			isa = PBXGroup;
 			children = (
-				B563F013198D7879000F3CD7 /* FastPXTests.swift */,
-				B563F011198D7879000F3CD7 /* Supporting Files */,
+				B563F01D198D7B95000F3CD7 /* Authentication.storyboard */,
+				B563F01F198D7BB5000F3CD7 /* AuthenticationViewController.swift */,
 			);
-			path = FastPXTests;
+			name = Authetication;
+			path = FastPX;
 			sourceTree = "<group>";
 		};
-		B563F011198D7879000F3CD7 /* Supporting Files */ = {
+		B563F026198D9767000F3CD7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B563F012198D7879000F3CD7 /* Info.plist */,
+				B5F7CB75198F380A0094E00B /* Accounts */,
+				B5E394521992D4EC000C1E2A /* Photos */,
+				B5E394531992D505000C1E2A /* RestAPI */,
+				B5E394541992D528000C1E2A /* Utilities */,
 			);
-			name = "Supporting Files";
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B563F02A198D9C43000F3CD7 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				B5CC7348198DAA8B007A4930 /* OAuthCore */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		B5CC7348198DAA8B007A4930 /* OAuthCore */ = {
+			isa = PBXGroup;
+			children = (
+				B5CC7349198DAA8B007A4930 /* LICENSE */,
+				B5CC734A198DAA8B007A4930 /* NSData+Base64.h */,
+				B5CC734B198DAA8B007A4930 /* NSData+Base64.m */,
+				B5CC734C198DAA8B007A4930 /* OAuth+Additions.h */,
+				B5CC734D198DAA8B007A4930 /* OAuth+Additions.m */,
+				B5CC734E198DAA8B007A4930 /* OAuthCore.h */,
+				B5CC734F198DAA8B007A4930 /* OAuthCore.m */,
+			);
+			name = OAuthCore;
+			path = vendor/OAuthCore;
+			sourceTree = "<group>";
+		};
+		B5E394521992D4EC000C1E2A /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				B5CC735A198DDB2A007A4930 /* Photo.swift */,
+				B5CC7358198DDB01007A4930 /* PhotoStream.swift */,
+				B5F7CB69198DF1B00094E00B /* PhotoStreamEntry.swift */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+		B5E394531992D505000C1E2A /* RestAPI */ = {
+			isa = PBXGroup;
+			children = (
+				B563F028198D97B8000F3CD7 /* RestAPI.swift */,
+			);
+			name = RestAPI;
+			sourceTree = "<group>";
+		};
+		B5E394541992D528000C1E2A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B5BC3F3D1991BB2D00C756FA /* FPXKeychainWrapper.h */,
+				B5BC3F3E1991BB2D00C756FA /* FPXKeychainWrapper.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		B5E394561992D591000C1E2A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B5F7CB6B198E178D0094E00B /* Controllers */,
+				B563F026198D9767000F3CD7 /* Models */,
+				B5F7CB6E198E17B90094E00B /* Views */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		B5F7CB6B198E178D0094E00B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B563F021198D7BD1000F3CD7 /* Authetication */,
+				B563F022198D7CE2000F3CD7 /* PopularTimelineViewController.swift */,
+				B5E394591992DB24000C1E2A /* PhotoStreamViewController.swift */,
+				B5E3945D1992EAA7000C1E2A /* EditorsTimelineViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B5F7CB6E198E17B90094E00B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5F7CB6C198E17AB0094E00B /* PhotoCellTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B5F7CB75198F380A0094E00B /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				B5CC7356198DCDF5007A4930 /* Account.swift */,
+				B5CC7354198DCBE2007A4930 /* AccountManager.swift */,
+				B5F7CB73198F37FE0094E00B /* AuthenticatedAccount.swift */,
+				B5F7CB71198F37BE0094E00B /* LoggedOutAccount.swift */,
+				B5E3945F1992F166000C1E2A /* SignInAccount.swift */,
+			);
+			name = Accounts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,24 +249,6 @@
 			productReference = B563EFF8198D7879000F3CD7 /* FastPX.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B563F00C198D7879000F3CD7 /* FastPXTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B563F01A198D7879000F3CD7 /* Build configuration list for PBXNativeTarget "FastPXTests" */;
-			buildPhases = (
-				B563F009198D7879000F3CD7 /* Sources */,
-				B563F00A198D7879000F3CD7 /* Frameworks */,
-				B563F00B198D7879000F3CD7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B563F00F198D7879000F3CD7 /* PBXTargetDependency */,
-			);
-			name = FastPXTests;
-			productName = FastPXTests;
-			productReference = B563F00D198D7879000F3CD7 /* FastPXTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +260,6 @@
 				TargetAttributes = {
 					B563EFF7198D7879000F3CD7 = {
 						CreatedOnToolsVersion = 6.0;
-					};
-					B563F00C198D7879000F3CD7 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = B563EFF7198D7879000F3CD7;
 					};
 				};
 			};
@@ -182,7 +277,6 @@
 			projectRoot = "";
 			targets = (
 				B563EFF7198D7879000F3CD7 /* FastPX */,
-				B563F00C198D7879000F3CD7 /* FastPXTests */,
 			);
 		};
 /* End PBXProject section */
@@ -192,15 +286,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B563F006198D7879000F3CD7 /* Main.storyboard in Resources */,
+				B563F01E198D7B95000F3CD7 /* Authentication.storyboard in Resources */,
+				B5CC7350198DAA8B007A4930 /* LICENSE in Resources */,
 				B563F008198D7879000F3CD7 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B563F00B198D7879000F3CD7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,44 +299,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B563F003198D7879000F3CD7 /* ViewController.swift in Sources */,
+				B563F020198D7BB5000F3CD7 /* AuthenticationViewController.swift in Sources */,
+				B5CC7357198DCDF5007A4930 /* Account.swift in Sources */,
 				B563EFFE198D7879000F3CD7 /* AppDelegate.swift in Sources */,
 				B563F001198D7879000F3CD7 /* FastPX.xcdatamodeld in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B563F009198D7879000F3CD7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B563F014198D7879000F3CD7 /* FastPXTests.swift in Sources */,
+				B5F7CB6A198DF1B00094E00B /* PhotoStreamEntry.swift in Sources */,
+				B5E3945E1992EAA7000C1E2A /* EditorsTimelineViewController.swift in Sources */,
+				B5F7CB74198F37FE0094E00B /* AuthenticatedAccount.swift in Sources */,
+				B563F023198D7CE2000F3CD7 /* PopularTimelineViewController.swift in Sources */,
+				B5F7CB72198F37BE0094E00B /* LoggedOutAccount.swift in Sources */,
+				B5CC735B198DDB2A007A4930 /* Photo.swift in Sources */,
+				B5CC7355198DCBE2007A4930 /* AccountManager.swift in Sources */,
+				B5E394601992F166000C1E2A /* SignInAccount.swift in Sources */,
+				B5CC7351198DAA8B007A4930 /* NSData+Base64.m in Sources */,
+				B5CC7353198DAA8B007A4930 /* OAuthCore.m in Sources */,
+				B5BC3F3F1991BB2D00C756FA /* FPXKeychainWrapper.m in Sources */,
+				B5E3945A1992DB24000C1E2A /* PhotoStreamViewController.swift in Sources */,
+				B5F7CB6D198E17AB0094E00B /* PhotoCellTableViewCell.swift in Sources */,
+				B5CC7352198DAA8B007A4930 /* OAuth+Additions.m in Sources */,
+				B5CC7359198DDB01007A4930 /* PhotoStream.swift in Sources */,
+				B563F029198D97B8000F3CD7 /* RestAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		B563F00F198D7879000F3CD7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B563EFF7198D7879000F3CD7 /* FastPX */;
-			targetProxy = B563F00E198D7879000F3CD7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B563F004198D7879000F3CD7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B563F005198D7879000F3CD7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		B563F015198D7879000F3CD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B563F025198D82B5000F3CD7 /* secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -292,6 +371,7 @@
 		};
 		B563F016198D7879000F3CD7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B563F025198D82B5000F3CD7 /* secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -331,9 +411,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode6-Beta4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"$(SRCROOT)/**",
+				);
 				INFOPLIST_FILE = FastPX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FastPX/FastPX-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -342,43 +431,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode6-Beta4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"$(SRCROOT)/**",
+				);
 				INFOPLIST_FILE = FastPX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		B563F01B198D7879000F3CD7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FastPX.app/FastPX";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = FastPXTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
-		B563F01C198D7879000F3CD7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FastPX.app/FastPX";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = FastPXTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FastPX/FastPX-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -401,14 +464,7 @@
 				B563F019198D7879000F3CD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		B563F01A198D7879000F3CD7 /* Build configuration list for PBXNativeTarget "FastPXTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B563F01B198D7879000F3CD7 /* Debug */,
-				B563F01C198D7879000F3CD7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

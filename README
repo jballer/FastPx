@@ -1,0 +1,7 @@
+This app demonstrates one mobile app architecture by producing a 500px client.
+
+SETUP
+
+1. Create a 500px developer app at http://developers.500px.com
+2. Create a secrets.xcconfig config file based on secrets.xcconfig.template.
+3. Load the project in Xcode 6.
