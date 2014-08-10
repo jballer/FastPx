@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C34AECE19977B0100428E55 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9C34AECB19977B0100428E55 /* LICENSE */; };
+		9C34AECF19977B0100428E55 /* OAuth+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C34AECC19977B0100428E55 /* OAuth+Additions.swift */; };
+		9C34AED019977B0100428E55 /* OAuthCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C34AECD19977B0100428E55 /* OAuthCore.swift */; };
 		B563EFFE198D7879000F3CD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B563EFFD198D7879000F3CD7 /* AppDelegate.swift */; };
 		B563F001198D7879000F3CD7 /* FastPX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B563EFFF198D7879000F3CD7 /* FastPX.xcdatamodeld */; };
 		B563F008198D7879000F3CD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B563F007198D7879000F3CD7 /* Images.xcassets */; };
@@ -15,10 +18,6 @@
 		B563F023198D7CE2000F3CD7 /* PopularTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B563F022198D7CE2000F3CD7 /* PopularTimelineViewController.swift */; };
 		B563F029198D97B8000F3CD7 /* RestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B563F028198D97B8000F3CD7 /* RestAPI.swift */; };
 		B5BC3F3F1991BB2D00C756FA /* FPXKeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BC3F3E1991BB2D00C756FA /* FPXKeychainWrapper.m */; };
-		B5CC7350198DAA8B007A4930 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B5CC7349198DAA8B007A4930 /* LICENSE */; };
-		B5CC7351198DAA8B007A4930 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CC734B198DAA8B007A4930 /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B5CC7352198DAA8B007A4930 /* OAuth+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CC734D198DAA8B007A4930 /* OAuth+Additions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B5CC7353198DAA8B007A4930 /* OAuthCore.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CC734F198DAA8B007A4930 /* OAuthCore.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B5CC7355198DCBE2007A4930 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CC7354198DCBE2007A4930 /* AccountManager.swift */; };
 		B5CC7357198DCDF5007A4930 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CC7356198DCDF5007A4930 /* Account.swift */; };
 		B5CC7359198DDB01007A4930 /* PhotoStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CC7358198DDB01007A4930 /* PhotoStream.swift */; };
@@ -33,6 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C34AECB19977B0100428E55 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = FastPX/Util/OAuthCore/LICENSE; sourceTree = "<group>"; };
+		9C34AECC19977B0100428E55 /* OAuth+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "OAuth+Additions.swift"; path = "FastPX/Util/OAuthCore/OAuth+Additions.swift"; sourceTree = "<group>"; };
+		9C34AECD19977B0100428E55 /* OAuthCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OAuthCore.swift; path = FastPX/Util/OAuthCore/OAuthCore.swift; sourceTree = "<group>"; };
 		B563EFF8198D7879000F3CD7 /* FastPX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastPX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B563EFFC198D7879000F3CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B563EFFD198D7879000F3CD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Classes/AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,13 +48,6 @@
 		B5BC3F3D1991BB2D00C756FA /* FPXKeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPXKeychainWrapper.h; path = FastPX/Classes/FPXKeychainWrapper.h; sourceTree = "<group>"; };
 		B5BC3F3E1991BB2D00C756FA /* FPXKeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FPXKeychainWrapper.m; path = FastPX/Classes/FPXKeychainWrapper.m; sourceTree = "<group>"; };
 		B5CC7342198DA7CF007A4930 /* FastPX-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "FastPX-Bridging-Header.h"; path = "FastPX/FastPX-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
-		B5CC7349198DAA8B007A4930 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		B5CC734A198DAA8B007A4930 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		B5CC734B198DAA8B007A4930 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
-		B5CC734C198DAA8B007A4930 /* OAuth+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OAuth+Additions.h"; sourceTree = "<group>"; };
-		B5CC734D198DAA8B007A4930 /* OAuth+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OAuth+Additions.m"; sourceTree = "<group>"; };
-		B5CC734E198DAA8B007A4930 /* OAuthCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthCore.h; sourceTree = "<group>"; };
-		B5CC734F198DAA8B007A4930 /* OAuthCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthCore.m; sourceTree = "<group>"; };
 		B5CC7354198DCBE2007A4930 /* AccountManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccountManager.swift; path = FastPX/Classes/AccountManager.swift; sourceTree = "<group>"; };
 		B5CC7356198DCDF5007A4930 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Account.swift; path = FastPX/Classes/Account.swift; sourceTree = "<group>"; };
 		B5CC7358198DDB01007A4930 /* PhotoStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoStream.swift; path = FastPX/Classes/PhotoStream.swift; sourceTree = "<group>"; };
@@ -77,13 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C746C8719974393009FD9FD /* OAuthCore */ = {
+			isa = PBXGroup;
+			children = (
+				9C34AECB19977B0100428E55 /* LICENSE */,
+				9C34AECC19977B0100428E55 /* OAuth+Additions.swift */,
+				9C34AECD19977B0100428E55 /* OAuthCore.swift */,
+			);
+			name = OAuthCore;
+			sourceTree = "<group>";
+		};
 		B563EFEF198D7879000F3CD7 = {
 			isa = PBXGroup;
 			children = (
 				B5E394561992D591000C1E2A /* Application */,
 				B563EFFA198D7879000F3CD7 /* Configuration */,
 				B563EFF9198D7879000F3CD7 /* Products */,
-				B563F02A198D9C43000F3CD7 /* Vendor */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,29 +142,6 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
-		B563F02A198D9C43000F3CD7 /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-				B5CC7348198DAA8B007A4930 /* OAuthCore */,
-			);
-			name = Vendor;
-			sourceTree = "<group>";
-		};
-		B5CC7348198DAA8B007A4930 /* OAuthCore */ = {
-			isa = PBXGroup;
-			children = (
-				B5CC7349198DAA8B007A4930 /* LICENSE */,
-				B5CC734A198DAA8B007A4930 /* NSData+Base64.h */,
-				B5CC734B198DAA8B007A4930 /* NSData+Base64.m */,
-				B5CC734C198DAA8B007A4930 /* OAuth+Additions.h */,
-				B5CC734D198DAA8B007A4930 /* OAuth+Additions.m */,
-				B5CC734E198DAA8B007A4930 /* OAuthCore.h */,
-				B5CC734F198DAA8B007A4930 /* OAuthCore.m */,
-			);
-			name = OAuthCore;
-			path = vendor/OAuthCore;
-			sourceTree = "<group>";
-		};
 		B5E394521992D4EC000C1E2A /* Photos */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +165,7 @@
 			children = (
 				B5BC3F3D1991BB2D00C756FA /* FPXKeychainWrapper.h */,
 				B5BC3F3E1991BB2D00C756FA /* FPXKeychainWrapper.m */,
+				9C746C8719974393009FD9FD /* OAuthCore */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -286,8 +268,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C34AECE19977B0100428E55 /* LICENSE in Resources */,
 				B563F01E198D7B95000F3CD7 /* Authentication.storyboard in Resources */,
-				B5CC7350198DAA8B007A4930 /* LICENSE in Resources */,
 				B563F008198D7879000F3CD7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C34AED019977B0100428E55 /* OAuthCore.swift in Sources */,
 				B563F020198D7BB5000F3CD7 /* AuthenticationViewController.swift in Sources */,
 				B5CC7357198DCDF5007A4930 /* Account.swift in Sources */,
 				B563EFFE198D7879000F3CD7 /* AppDelegate.swift in Sources */,
@@ -311,12 +294,9 @@
 				B5CC735B198DDB2A007A4930 /* Photo.swift in Sources */,
 				B5CC7355198DCBE2007A4930 /* AccountManager.swift in Sources */,
 				B5E394601992F166000C1E2A /* SignInAccount.swift in Sources */,
-				B5CC7351198DAA8B007A4930 /* NSData+Base64.m in Sources */,
-				B5CC7353198DAA8B007A4930 /* OAuthCore.m in Sources */,
-				B5BC3F3F1991BB2D00C756FA /* FPXKeychainWrapper.m in Sources */,
+				9C34AECF19977B0100428E55 /* OAuth+Additions.swift in Sources */,
 				B5E3945A1992DB24000C1E2A /* PhotoStreamViewController.swift in Sources */,
 				B5F7CB6D198E17AB0094E00B /* PhotoCellTableViewCell.swift in Sources */,
-				B5CC7352198DAA8B007A4930 /* OAuth+Additions.m in Sources */,
 				B5CC7359198DDB01007A4930 /* PhotoStream.swift in Sources */,
 				B563F029198D97B8000F3CD7 /* RestAPI.swift in Sources */,
 			);
