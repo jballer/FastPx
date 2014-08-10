@@ -56,7 +56,7 @@ class AuthenticatedAccount: Account {
         }
     }
     private func pushSecretToKeychain(newSecret: String){
-        FPXKeychainWrapper.storeUsername(self.guid, andPassword:newSecret)
+        FPXKeychainWrapper.store(self.guid, password:newSecret)
     }
 
     private class func pullSecretFromKeychain(accountId: String) -> String? {

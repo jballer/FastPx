@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C6DDA741997783A00859F9A /* FPXKeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6DDA731997783A00859F9A /* FPXKeychainWrapper.swift */; };
 		B563EFFE198D7879000F3CD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B563EFFD198D7879000F3CD7 /* AppDelegate.swift */; };
 		B563F001198D7879000F3CD7 /* FastPX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B563EFFF198D7879000F3CD7 /* FastPX.xcdatamodeld */; };
 		B563F008198D7879000F3CD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B563F007198D7879000F3CD7 /* Images.xcassets */; };
@@ -14,7 +15,6 @@
 		B563F020198D7BB5000F3CD7 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B563F01F198D7BB5000F3CD7 /* AuthenticationViewController.swift */; };
 		B563F023198D7CE2000F3CD7 /* PopularTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B563F022198D7CE2000F3CD7 /* PopularTimelineViewController.swift */; };
 		B563F029198D97B8000F3CD7 /* RestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B563F028198D97B8000F3CD7 /* RestAPI.swift */; };
-		B5BC3F3F1991BB2D00C756FA /* FPXKeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BC3F3E1991BB2D00C756FA /* FPXKeychainWrapper.m */; };
 		B5CC7350198DAA8B007A4930 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B5CC7349198DAA8B007A4930 /* LICENSE */; };
 		B5CC7351198DAA8B007A4930 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CC734B198DAA8B007A4930 /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B5CC7352198DAA8B007A4930 /* OAuth+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CC734D198DAA8B007A4930 /* OAuth+Additions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -33,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C6DDA731997783A00859F9A /* FPXKeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FPXKeychainWrapper.swift; path = FastPX/Util/FPXKeychainWrapper.swift; sourceTree = "<group>"; };
 		B563EFF8198D7879000F3CD7 /* FastPX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastPX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B563EFFC198D7879000F3CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B563EFFD198D7879000F3CD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Classes/AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,8 +44,6 @@
 		B563F022198D7CE2000F3CD7 /* PopularTimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopularTimelineViewController.swift; path = FastPX/Classes/PopularTimelineViewController.swift; sourceTree = "<group>"; };
 		B563F025198D82B5000F3CD7 /* secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = secrets.xcconfig; path = ../secrets.xcconfig; sourceTree = "<group>"; };
 		B563F028198D97B8000F3CD7 /* RestAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestAPI.swift; path = FastPX/Classes/RestAPI.swift; sourceTree = "<group>"; };
-		B5BC3F3D1991BB2D00C756FA /* FPXKeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPXKeychainWrapper.h; path = FastPX/Classes/FPXKeychainWrapper.h; sourceTree = "<group>"; };
-		B5BC3F3E1991BB2D00C756FA /* FPXKeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FPXKeychainWrapper.m; path = FastPX/Classes/FPXKeychainWrapper.m; sourceTree = "<group>"; };
 		B5CC7342198DA7CF007A4930 /* FastPX-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "FastPX-Bridging-Header.h"; path = "FastPX/FastPX-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		B5CC7349198DAA8B007A4930 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B5CC734A198DAA8B007A4930 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
@@ -133,7 +132,6 @@
 				B5F7CB75198F380A0094E00B /* Accounts */,
 				B5E394521992D4EC000C1E2A /* Photos */,
 				B5E394531992D505000C1E2A /* RestAPI */,
-				B5E394541992D528000C1E2A /* Utilities */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -182,8 +180,7 @@
 		B5E394541992D528000C1E2A /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				B5BC3F3D1991BB2D00C756FA /* FPXKeychainWrapper.h */,
-				B5BC3F3E1991BB2D00C756FA /* FPXKeychainWrapper.m */,
+				9C6DDA731997783A00859F9A /* FPXKeychainWrapper.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -194,6 +191,7 @@
 				B5F7CB6B198E178D0094E00B /* Controllers */,
 				B563F026198D9767000F3CD7 /* Models */,
 				B5F7CB6E198E17B90094E00B /* Views */,
+				B5E394541992D528000C1E2A /* Utilities */,
 			);
 			name = Application;
 			sourceTree = "<group>";
@@ -319,6 +317,7 @@
 				B5CC7352198DAA8B007A4930 /* OAuth+Additions.m in Sources */,
 				B5CC7359198DDB01007A4930 /* PhotoStream.swift in Sources */,
 				B563F029198D97B8000F3CD7 /* RestAPI.swift in Sources */,
+				9C6DDA741997783A00859F9A /* FPXKeychainWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
