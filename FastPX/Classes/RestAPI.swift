@@ -174,7 +174,21 @@ class RestAPI: NSObject, NSURLSessionDelegate {
                 if parseError != nil {
                     responseHandler(success: false, error: parseError, photos: nil)
                 } else {
-                    responseHandler(success: true, error: nil, photos: responseDictionary)
+                    if let status = responseDictionary["status"] as? Int {
+                        switch(status) {
+                        case 200..<300:
+                            responseHandler(success: true, error: nil, photos: responseDictionary)
+                        default:
+                            var errorStr = "Error reported by server"
+                            if let err = responseDictionary["error"] as? String {
+                                errorStr = err
+                            }
+                            var serverError = NSError.errorWithDomain("YOUR_ERROR_DOMAIN", code: status, userInfo: responseDictionary)
+                            responseHandler(success: false, error: serverError, photos: nil)
+                        }
+                    } else {
+                            responseHandler(success: true, error: nil, photos: responseDictionary)
+                    }
                 }
             }
         }

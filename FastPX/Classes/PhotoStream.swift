@@ -79,7 +79,7 @@ class PhotoStream: NSObject {
                     }
                 }
             } else {
-                println("error loading photos")
+                println("error loading photos: \(error?)")
             }
         }
     }
